@@ -1,0 +1,62 @@
+/* 
+#606C38
+#283618
+#FEFAE0
+#DDA15E
+#BC6C25
+*/
+
+
+#root {
+    width: 100%;
+    margin: 0px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #242424 !important;
+}
+
+.screen {
+    min-height: 60px;
+    background-color: white;
+    color: #3A3B3C;
+    line-height: 60px;
+    flex-basis: 100%;
+    overflow: hidden;
+}
+
+.element {
+    flex-grow: 1;
+    flex-basis: 18%;
+    min-height: 60px;
+    background-color: #606c38;
+    color: #FEFAE0;
+    line-height: 60px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.element:nth-child(4n+1) {
+    background-color: #606c389c;
+}
+
+.element:nth-child(14) {
+    flex-basis: 43%;
+}
+
+.element:nth-child(16) {
+    background-color: #606c389c;
+}
+
+.element:nth-child(17) {
+    background-color: #BC6C25;
+}
+
+.element:nth-child(18) {
+    background-color: #BC6C25;
+    flex-grow: 8;
+}
